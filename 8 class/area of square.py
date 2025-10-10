@@ -5,5 +5,5 @@ area = l*l
 
 
 print("area of a Square is : ", area)
-
+print("hi")
 
