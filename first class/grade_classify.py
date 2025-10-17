@@ -46,3 +46,16 @@ print(result)
 
 
 
+inventory = {}
+
+while True:
+    item = input("Enter item name (or type 'done' to finish): ")
+    if item.lower() == 'done':
+        break
+    
+    quantity = int(input(f"Enter quantity for {item}: "))
+    inventory[item] = quantity
+
+print("\nInventory List:")
+for item, quantity in inventory.items():
+    print(f"{item}: {quantity}")
