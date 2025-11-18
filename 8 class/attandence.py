@@ -53,44 +53,44 @@
 
 # Mark attendance
 
-attendance_list = []
+# attendance_list = []
 
-n = int(input("Enter number of students: "))
-
-
-
-for i in range(n):
-    name = input(f"Enter name of present student {i+1}: ")
+# n = int(input("Enter number of students: "))
 
 
 
-
-    if name not in attendance_list:
-        attendance_list.append(name)
-        print(f"{name} marked present.")
+# for i in range(n):
+#     name = input(f"Enter name of present student {i+1}: ")
 
 
 
-    else:
-        print(f"{name} is already marked present.")
 
-print("\nAttendance List:")
+#     if name not in attendance_list:
+#         attendance_list.append(name)
+#         print(f"{name} marked present.")
 
-attendance_list1 = sorted(attendance_list)
 
-for student in range(0, 1):
-    print(attendance_list1)
 
-i = 1
-for j in range(n):
+#     else:
+#         print(f"{name} is already marked present.")
+
+# print("\nAttendance List:")
+
+# attendance_list1 = sorted(attendance_list)
+
+# for student in range(0, 1):
+#     print(attendance_list1)
+
+# i = 1
+# for j in range(n):
 
     
-    check_name = input("\nEnter a name to check attendance: ")
+#     check_name = input("\nEnter a name to check attendance: ")
     
-    if check_name in attendance_list:
-        print(f" {check_name} is present.")
-    else:
-        print(f"{check_name} is absent.") 
+#     if check_name in attendance_list:
+#         print(f" {check_name} is present.")
+#     else:
+#         print(f"{check_name} is absent.") 
 
 
 
