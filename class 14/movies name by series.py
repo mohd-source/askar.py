@@ -97,7 +97,7 @@
 # # #     letter = movie[0].upper()
 
 # # #     if letter not in counts:
-# # #         counts[letter] = []      # create an empty list for this letter
+# # #         counts[letter] = ][      # create an empty list for this letter
 
 # # #     counts[letter].append(movie) # add movie to that letter list
 
