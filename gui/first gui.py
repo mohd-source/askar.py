@@ -26,28 +26,28 @@ def convert_temp():
         label_result.config(text="Please enter a valid number")
 
 # --- GUI Setup ---
-# window = tk.Tk()
-# window.title("Temperature Converter")
-# window.geometry("300x200")
-# window.resizable(False, False)
+window = tk.Tk()
+window.title("Temperature Converter")
+window.geometry("300x200")
+window.resizable(False, False)
 
-# # Input
-# label_prompt = tk.Label(window, text="Enter temperature:")
-# label_prompt.pack(pady=5)
+# Input
+label_prompt = tk.Label(window, text="Enter temperature:")
+label_prompt.pack(pady=5)
 
-# entry_temp = tk.Entry(window, width=10)
-# entry_temp.pack()
+entry_temp = tk.Entry(window, width=10)
+entry_temp.pack()
 
-# # Dropdown for conversion type
-# conversion_type = ttk.Combobox(window, values=["C → F", "F → C"], state="readonly", width=10)
-# conversion_type.current(0)
-# conversion_type.pack(pady=10)
+# Dropdown for conversion type
+conversion_type = ttk.Combobox(window, values=["C → F", "F → C"], state="readonly", width=10)
+conversion_type.current(0)
+conversion_type.pack(pady=10)
 
-# # Convert button
-# button_convert = tk.Button(window, text="Convert", command=convert_temp)
-# button_convert.pack(pady=5)
+# Convert button
+button_convert = tk.Button(window, text="Convert", command=convert_temp)
+button_convert.pack(pady=5)
 
-# # Result label
+# Result label
 label_result = tk.Label(window, text="Result will appear here", font=("Arial", 12, "bold"))
 label_result.pack(pady=10)
 
@@ -57,7 +57,7 @@ window.mainloop()
 
 # ---
 
-### 🧠 How It Works:
+# ## 🧠 How It Works:
 
 # * **Tkinter** creates the window.
 # * The user enters a temperature and selects the conversion direction.

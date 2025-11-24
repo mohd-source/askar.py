@@ -7,6 +7,7 @@ list1 = []
 
 for j in range (0, 5):
     print (list1[j])
+    j+=1
 
 
 
