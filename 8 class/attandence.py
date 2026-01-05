@@ -51,7 +51,7 @@
 
 
 
-# Mark attendance
+
 
 # attendance_list = []
 
@@ -91,6 +91,43 @@
 #         print(f" {check_name} is present.")
 #     else:
 #         print(f"{check_name} is absent.") 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

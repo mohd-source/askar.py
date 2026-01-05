@@ -1,4 +1,5 @@
-print("Hello World")
+b = "Hello World"
+
 
 # print the traditional hello world
 
@@ -7,7 +8,7 @@ z = 2 + 15
 
 a = 12 
 
-print(float(a))
+print(str(a))
 print()
 
 print(int(True))

@@ -1,6 +1,7 @@
 odd_square = []
 even_sq = []
 
+
 for x in range(0,21 ):
     if x%2 != 0:    
         odd_square.append(x**2)
